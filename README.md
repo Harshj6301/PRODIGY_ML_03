@@ -6,6 +6,7 @@ Hugging Face <a href="https://huggingface.co/spaces/Harsh-Jadhav/Dogs_v_Cats_cla
 ### Image Classification task with Support Vector Classifier
 - to classify cats and dogs images
 - kernel used -rbf
+- Used features weights from imagenet and trained on the base model to extract features
 - Trained on numpy arrays of images and labels of the corresponding images by extracting the labels from filenames
 
 Web app deployed on Hugging Face with gradio interface
